@@ -3910,22 +3910,16 @@ input, select, textarea {
 
 /*  Custom Intro Layout */
 
-	#intro .inner.split {
- 		display: flex;
-  		align-items: center;
-	}
-
 	#intro .intro-avatar {
 		display: flex;
 		justify-content: center;
-		align-items: center;
 		padding-left: 0rem;
 		padding-bottom: 2rem;
 	}
 	
 	#intro .intro-avatar img {
+		max-width: 500px;
 		width: 100%;
-		max-width: 350px;
 		height: auto;
 		border-radius: 50%;
 		object-fit: cover;
