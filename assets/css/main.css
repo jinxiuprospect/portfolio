@@ -3924,8 +3924,9 @@ input, select, textarea {
 	}
 	
 	#intro .intro-avatar img {
-		width: 350px;
-		height: 350px;
+		width: 100%;
+		max-width: 350px;
+		height: auto;
 		border-radius: 50%;
 		object-fit: cover;
 		box-shadow: 0 14px 35px rgba(0,0,0,.22);
